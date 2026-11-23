@@ -1,4 +1,8 @@
-# Private reference/brief files (contain credentials) – keep local only
+# Dependencies & build output
+node_modules/
+dist/
+
+# Private local files (contain credentials)
 .local/
 clonereferenceprompt
 
@@ -7,11 +11,10 @@ clonereferenceprompt
 .env.*
 !.env.example
 
-# Vercel / Node
+# Vercel
 .vercel/
-node_modules/
 
-# OS / editor
+# OS / editor / logs
 .DS_Store
 Thumbs.db
 desktop.ini
